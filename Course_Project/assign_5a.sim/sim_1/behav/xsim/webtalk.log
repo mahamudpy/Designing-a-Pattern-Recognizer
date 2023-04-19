@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jul  7 11:37:09 2021
+# Process ID: 5100
+# Current directory: C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.sim/sim_1/behav/xsim/xsim.dir/test_5a_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/ALL -notrace
+couldn't read file "C:/ALL": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Wed Jul  7 11:37:09 2021...

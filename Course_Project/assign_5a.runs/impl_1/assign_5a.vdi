@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jul  7 19:09:40 2021
+# Process ID: 7504
+# Current directory: C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.runs/impl_1
+# Command line: vivado.exe -log assign_5a.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source assign_5a.tcl -notrace
+# Log file: C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.runs/impl_1/assign_5a.vdi
+# Journal file: C:/ALL FPGA/A5- Md_Islam/assign_5a/assign_5a.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source assign_5a.tcl -notrace
+Command: link_design -top assign_5a -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 631.879 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 715.563 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 744.422 ; gain = 434.156
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[0] has multiple drivers: count_reg[0]/Q, and rinti_reg[0]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[1] has multiple drivers: count_reg[1]/Q, and rinti_reg[1]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[2] has multiple drivers: count_reg[2]/Q, and rinti_reg[2]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[3] has multiple drivers: count_reg[3]/Q, and rinti_reg[3]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[4] has multiple drivers: count_reg[4]/Q, and rinti_reg[4]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[5] has multiple drivers: count_reg[5]/Q, and rinti_reg[5]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[6] has multiple drivers: count_reg[6]/Q, and rinti_reg[6]/Q.
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net count_OBUF[7] has multiple drivers: count_reg[7]/Q, and rinti_reg[7]/Q.
+INFO: [Project 1-461] DRC finished with 8 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 768.234 ; gain = 23.813
+INFO: [Common 17-83] Releasing license: Implementation
+9 Infos, 0 Warnings, 0 Critical Warnings and 9 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  7 19:09:57 2021...
